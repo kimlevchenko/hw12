@@ -18,6 +18,9 @@ public class Book {
         return this.datePublication;
     }
 
+    public Author getAuthor() {
+        return this.author;
+    }
 
     public void setDatePublication(int datePublication) {
         this.datePublication = datePublication;
